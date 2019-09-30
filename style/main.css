@@ -1,0 +1,131 @@
+/* START font */
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam&display=swap');
+/* END font */
+
+/* Style untuk selector - BEGIN*/
+body{
+    background-color: aquamarine;
+    font-family: Be Vietnam, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 16px;
+}
+/* Style untuk Selector - END*/
+
+/* Style untuk Heading - BEGIN*/
+h1{
+    color: aquamarine;
+    font-family: Be Vietnam, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    line-height: 1.5em;
+    margin: 10px;
+    padding: 20px 20px;
+}
+h3 {
+    color: aquamarine;
+}
+/* Style untuk Heading - END*/ 
+
+/* START container */
+.container {
+    background-color: whitesmoke;
+}
+/* END container */
+
+/*start logo*/
+.logo {
+    text-align: center;
+}
+/*end logo*/
+
+/* Style untuk Link - BEGIN*/
+a:link {
+    background-color: lightsalmon;
+}
+a:hover {
+    background-color: lightpink;
+}
+a:visited {
+    background-color: lightcoral;
+}
+/* Style untuk Link - END*/
+
+/* Style berbentuk Class - BEGIN*/ 
+.container {
+    background-color: whitesmoke;
+}
+.logo {
+    text-align: center;
+}
+.position {
+    text-align: center;
+    font-size: large;
+}
+/* Style berbentuk class - END*/ 
+
+/* Menu Header - BEGIN*/
+.menu-header ul {
+    background-color: palevioletred;
+    border-radius: 40px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0 6px 10px 0 rgba(0, 0, 0, 0.14),
+        0 1px 18px rgba(0, 0, 0, 0.12);
+}
+.menu-header li {
+    display: inline-block;
+}
+.menu-header a {
+    font-family: Be Vietnam, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: turquoise;
+    padding: 20px 20px;
+    letter-spacing: 1px;
+}
+.menu-header a:hover{
+    background-color: hotpink;
+}
+/* Menu Header - END*/
+
+/* Card Home - BEGIN*/
+.cardhome {
+    background-color: indianred;
+    width: 30%;
+    height: 250px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.cardhead {
+    margin: 28px;
+}
+/* Card Home - END*/
+
+/* Main content - BEGIN*/
+.cardhome {
+    background-color: darkseagreen;
+    width: 30%;
+    height: 250px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+}
+.cardhead {
+    border-bottom: solid 1px lightseagreen;
+    padding: 10px 0px;
+}
+.cardhead h3 {
+    margin: 0px;
+    text-align: center;
+    font-family: Be Vietnam,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cardbody {
+    padding: 10px;
+    text-align: center;
+}
+.cardbody p {
+    font-family: Be Vietnam,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.cardflex {
+    display: flex;
+    justify-content: space-between;
+}
+/* Main content - END*/
